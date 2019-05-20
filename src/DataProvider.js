@@ -14,9 +14,7 @@ class DataProvider extends Component {
             this.setState({
                 dog: res.data.message
             })
-        }).catch(function (error) { 
-            window.location.reload() 
-        });
+        })
     }
     render() {
         return (
