@@ -98,7 +98,7 @@ class App extends Component {
           </div>
           :
           <div style={{ textAlign: "center" }}>
-            <button style={styles.back} onClick={this.handleToggle}>Back</button>
+            <button onClick={this.handleToggle}>Back</button>
             <div style={{ display: "flex", justifyContent: "space-evenly", flexWrap: 'wrap' }}>
               {ratedDogs}
             </div>
